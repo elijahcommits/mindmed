@@ -92,3 +92,29 @@
   font-size: 14px;
 }
 
+@media screen and (max-width: 768px) {
+  .linktree {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .book_title {
+    font-size: 28px;
+  }
+
+  .book_subtitle {
+    font-size: 18px;
+  }
+
+  .book_main-blurb {
+    max-width: 90%;
+  }
+
+  .book_front-cover {
+    max-width: 80%;
+  }
+
+  .linktree-links .link {
+    font-size: 20px;
+  }
+}
