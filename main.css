@@ -81,7 +81,7 @@
 
 .linktree-footer a {
   font-size: 12px;
-  color: #FFF;
+  color: #e2e2e2;
   text-decoration: none;
   transition: color ease-out 0.5s, font-size ease-out 1s;
 }
