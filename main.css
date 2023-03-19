@@ -28,6 +28,8 @@
 
 .book_title {
   font-size: 36px;
+  letter-spacing: 1.5px;
+  word-spacing: 4px;
   margin-top: 12px;
   margin-bottom: 4px;
 }
@@ -35,6 +37,7 @@
 .book_subtitle {
   color: var(--mm_red);
   font-size: 20px;
+  letter-spacing: 1px;
   margin-bottom: 20px;
 }
 
