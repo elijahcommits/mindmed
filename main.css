@@ -42,8 +42,7 @@
   text-align: justify;
   /* text-justify: inter-word; */
   margin: 0 auto;
-  /* max-width: 90%; */
-  max-width: 80%;
+  width: 80%;
   margin-top: 12px;
 }
 
