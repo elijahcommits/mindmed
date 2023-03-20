@@ -58,7 +58,7 @@
 }
 
 .book_front-cover:hover {
-  width: 50%;
+  width: 60%;
 }
 
 .linktree-links {
@@ -129,16 +129,8 @@
     font-size: 28px;
   }
 
-  /* .book_subtitle {
-    font-size: 18px;
-  } */
-
-  .book_main-blurb {
-    max-width: 90%;
-  }
-
-  .book_front-cover {
-    max-width: 80%;
+  .book_front-cover:hover {
+    width: 75%;
   }
 
   .linktree-links .link {
