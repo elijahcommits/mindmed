@@ -41,18 +41,18 @@
   margin-bottom: 20px;
 }
 
+.book_front-cover {
+  width: 35%;
+  border-radius: 4px;
+  transition: width ease-in 0.3s;
+}
+
 .book_main-blurb {
   text-align: justify;
   /* text-justify: inter-word; */
   margin: 0 auto;
   width: 80%;
   margin-top: 12px;
-}
-
-.book_front-cover {
-  width: 35%;
-  border-radius: 4px;
-  transition: width ease-in 0.3s;
 }
 
 .book_front-cover:hover {
