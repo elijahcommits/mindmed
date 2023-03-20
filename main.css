@@ -50,6 +50,7 @@
 .book_main-blurb {
   text-align: justify;
   /* text-justify: inter-word; */
+  line-height: 1.5;
   margin: 0 auto;
   width: 80%;
   margin-top: 12px;
