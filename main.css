@@ -37,7 +37,7 @@
 
 .book_subtitle {
   color: var(--mm_red);
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
@@ -65,6 +65,21 @@
   padding: 20px;
 }
 
+#buy-now {
+  font-size: 24px;
+  color: #f2f2f2;
+  letter-spacing: 1px;
+  font-weight: 900;
+  border-radius: 10px;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  padding: 1rem 2rem;
+  background-color: var(--mm_red);
+  /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
 .linktree-links .link {
   display: block;
   font-size: 24px;
@@ -79,6 +94,9 @@
   background-color: var(--mm_red);
   padding: 10px;
   border-radius: 10px;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  word-spacing: 3px;
 }
 
 .linktree-footer {
@@ -101,7 +119,7 @@
   font-size: 14px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 512px) {
   .linktree {
     width: 90%;
     margin: 20px auto;
@@ -111,9 +129,9 @@
     font-size: 28px;
   }
 
-  .book_subtitle {
+  /* .book_subtitle {
     font-size: 18px;
-  }
+  } */
 
   .book_main-blurb {
     max-width: 90%;
@@ -125,5 +143,10 @@
 
   .linktree-links .link {
     font-size: 20px;
+  }
+
+  #buy-now {
+    font-size: 20px;
+    padding: 1rem 0.66rem;
   }
 }
