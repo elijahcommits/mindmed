@@ -52,6 +52,11 @@
 .book_front-cover {
   width: 35%;
   border-radius: 4px;
+  transition: width ease-in 0.3s;
+}
+
+.book_front-cover:hover {
+  width: 50%;
 }
 
 .linktree-links {
